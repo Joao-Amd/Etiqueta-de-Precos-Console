@@ -5,9 +5,6 @@ namespace EtiquetaDePreco.Entidades
     {
         public double TaxaAlfandegaProduto { get; set; }
 
-        public ProdutoImportado()
-        {
-        }
         public ProdutoImportado(string nomeProduto, double precoProduto, double taxaAlfandegaProduto) 
             : base (nomeProduto, precoProduto)
         {

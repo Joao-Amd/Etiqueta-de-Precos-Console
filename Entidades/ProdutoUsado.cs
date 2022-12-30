@@ -5,9 +5,7 @@ namespace EtiquetaDePreco.Entidades
     {
         public DateTime DataDeFabricacaoProduto { get; set; }
 
-        public ProdutoUsado()
-        {
-        }
+     
         public ProdutoUsado(string nomeProduto, double precoProduto, DateTime dataDeFabricacaoProduto) : base(nomeProduto, precoProduto)
         {
             DataDeFabricacaoProduto = dataDeFabricacaoProduto;
